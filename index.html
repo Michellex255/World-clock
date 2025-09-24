@@ -4,34 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World-clock</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
 
-      <select name="" id="">
+      <select>
         <option value="">Select a city...</option>
         <option value="">New York</option>
         <option value="">London</option>
         <option value="">Tokyo</option>
-        <option value="">Sydney</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="sydney">
         <div>
-          <h2>New York </h2>
-          <div class="date">September 22nd 2025</div>
+          <h2>Sydney</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">05:34:30 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="london">
         <div>
-          <h2>London </h2>
-          <div class="date">September 22nd 2025</div>
+          <h2>London</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">10:34:30 <small>AM</small></div>
-        
+        <div class="time"></div>
+      </div>
     </div>
     <footer>
       This project was coded by Michelle De villiers and is
